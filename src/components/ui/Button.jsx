@@ -15,7 +15,7 @@ export default function Button({
   return (
     <Link
       href={href}
-      className={`inline-flex items-center justify-center rounded-md px-8 py-2   text-base font-medium transition-colors duration-200 ${styles[variant]}`}
+      className={`inline-flex items-center justify-center rounded-md px-8 py-8   text-base font-medium transition-colors duration-200 ${styles[variant]}`}
     >
       {label}
     </Link>
